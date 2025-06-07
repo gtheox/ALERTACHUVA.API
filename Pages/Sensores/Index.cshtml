@@ -1,0 +1,29 @@
+@page
+@model AlertaChuva.API.Pages.Sensores.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h1>Lista de Sensores</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Localização</th>
+            <th>Status</th>
+            <th>Nível de Alerta (cm)</th>
+            <th>ID do Usuário</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sensor in Model.Sensores)
+        {
+            <tr>
+                <td>@sensor.Id</td>
+                <td>@sensor.Localizacao</td>
+                <td>@sensor.Status</td>
+                <td>@sensor.NivelAlertaMinimoCm</td>
+                <td>@sensor.UsuarioId</td>
+            </tr>
+        }
+    </tbody>
+</table>

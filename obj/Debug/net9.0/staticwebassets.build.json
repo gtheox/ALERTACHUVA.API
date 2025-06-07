@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Y3c4N58tablVLs3AMoaA9bjoRYCSxwRFnopUQeueNEw=",
+  "Source": "AlertaChuva.API",
+  "BasePath": "_content/AlertaChuva.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

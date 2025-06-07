@@ -130,9 +130,9 @@ Documentação gerada automaticamente com todos os endpoints.
 
 ## 👨‍💻 Desenvolvido por
 
-- **Nome**: [Seu Nome Aqui]
-- **RM**: [Seu RM Aqui]
-- **Turma**: 2TDS - Global Solution 2025/1
+- **Nome**: Gabriel Teodoro Gonçalves Rosa, Luka Ura Shibuya, Eduardo Ribeiro Giovannini
+- **RM**: RM555962, RM558123, RM555030
+- **Turma**: 2TDSF - Global Solution 2025/1
 - **Instituição**: FIAP
 
 ## Links

@@ -1,0 +1,27 @@
+@page
+@model AlertaChuva.API.Pages.Leituras.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h1>Histórico de Leituras</h1>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>ID do Sensor</th>
+            <th>Nível da Água (cm)</th>
+            <th>Data e Hora</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var leitura in Model.Leituras)
+        {
+            <tr>
+                <td>@leitura.Id</td>
+                <td>@leitura.SensorId</td>
+                <td>@leitura.NivelAguaCm</td>
+                <td>@leitura.DataHora.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+        }
+    </tbody>
+</table>

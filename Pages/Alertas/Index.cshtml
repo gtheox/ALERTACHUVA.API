@@ -1,0 +1,27 @@
+@page
+@model AlertaChuva.API.Pages.Alertas.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h1>Lista de Alertas Emitidos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nível da Água (cm)</th>
+            <th>Data/Hora</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var alerta in Model.Alertas)
+        {
+            <tr>
+                <td>@alerta.Id</td>
+                <td>@alerta.NivelAguaCm</td>
+                <td>@alerta.DataHora.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@alerta.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
