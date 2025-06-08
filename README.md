@@ -138,4 +138,4 @@ Documentação gerada automaticamente com todos os endpoints.
 ## Links
 
 - [Demonstração da Solução](https://youtu.be/RTtLYTU8A14)
-- [Pitch da Solução](link_do_pitch)
+- [Pitch da Solução](https://youtu.be/68Ut_2tMYUA)
